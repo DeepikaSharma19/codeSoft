@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Poppins:wght@200&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+#container{
+    height: 700px;
+    width: 800px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#upper_cont{
+    background-color: #f8d3f2a3;
+    border-bottom: 8px solid white;
+    height: 100px;
+    width: 100%; 
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+#upper_cont p{
+    font-family: cursive;
+    color: #8E5547;
+    font-size: 2rem;
+}
+
+#mid_text{
+    height: 580px;
+    width: 200px;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    background-color: #f8d3f2a3;
+    border: 4px solid  #8E5547;
+    z-index: 1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.mid_txt2{
+    height: 300px;
+    width: 85%;
+    border-radius:10px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px; 
+    background-image: url("../images/profile_pic3.jpg");
+    background-repeat: no-repeat;
+}
+.mid_txt2 .txt p {
+    line-height: 20px;
+}
+.txt2{
+    position: absolute;
+    height: 250px;
+    width: 90%;
+    bottom: 5px;
+    left: 15px;
+    font-family: fantasy;
+}
+.txt2 h2{
+    font-family: cursive;
+    color: #8E5547;
+}
+.txt2 p{
+    line-height: 30px;
+    padding-top:  1rem;
+    font-family: fantasy;
+    color: #8E5547;
+    font-size: 1rem;
+}
+
+#lower_cont{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    background-color:#8E5547;
+    border: 6px solid #8E5547;
+    color: white
+}
+#lower_cont .lower_text{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    font-family: fantasy;
+    padding-right: 1rem;
+}
+#lower_cont .lower_text .line{
+    border-bottom: 3px solid white;
+}
+#lower_cont .lower_text .line p{
+    margin: 1rem;
+    font-size: 1.2rem ;
+}
+ .caps{
+    font-size: 2.5rem;
+    font-family: cursive;
+}
